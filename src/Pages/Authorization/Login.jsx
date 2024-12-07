@@ -36,7 +36,7 @@ function Login() {
         }
         try {
             setIsLoading(true)
-            navigate('/dashboard')
+            navigate('/')
         } catch (error) {
             
         } finally {
