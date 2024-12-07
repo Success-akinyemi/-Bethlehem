@@ -17,6 +17,7 @@ export default {
           'dark-green': '#00130d',
           'dark-green-1': '#002d1d',
           'dark-green-2': '#00130d',
+          'dark-green-3': '#000701',
           'dark-gray': '#000000',
 
           'black': '#000000',

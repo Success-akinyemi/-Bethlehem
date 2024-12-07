@@ -18,6 +18,9 @@
   .card1{
     @apply p-5 rounded-[10px] flex flex-col relative
   }
+  .card2{
+    @apply px-4 py-5 flex flex-col relative rounded-[15px]
+  }
   .inputGroup{
     @apply w-full flex flex-col gap-1
   }
