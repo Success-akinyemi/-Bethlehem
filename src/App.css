@@ -1,0 +1,9 @@
+.app{
+  width: 100vw;
+  overflow-x: hidden;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background-color: #c9c7c7;
+  font-family: "Poppins", sans-serif;
+}

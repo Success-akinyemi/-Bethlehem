@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quando&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .page{
+    @apply bg-gradient-to-b from-dark-green to-dark-gray min-h-[100vh] relative px-8 tablet:px-4 phone:px-3
+  }
+  .pageGradient{
+    @apply bg-gradient-to-b from-dark-gray via-dark-gray to-dark-green
+  }
+  .pageBlack{
+    @apply bg-black min-h-[100vh] relative px-8 tablet:px-4 phone:px-3
+  }
+  .card1{
+    @apply p-5 rounded-[10px] flex flex-col relative
+  }
+  .inputGroup{
+    @apply w-full flex flex-col gap-1
+  }
+  .label{
+    @apply text-black text-[16px]
+  }
+  .input{
+    @apply w-full p-2 text-[15px] text-black placeholder:text-black border-[1px] border-black rounded-[8px] outline-none text-center bg-transparent
+  }
+  .title{
+    @apply text-white text-[24px] font-bold
+  }
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none; 
+}
